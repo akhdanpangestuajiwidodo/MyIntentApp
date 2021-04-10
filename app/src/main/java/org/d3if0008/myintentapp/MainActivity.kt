@@ -1,5 +1,6 @@
 package org.d3if0008.myintentapp
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
@@ -20,7 +21,8 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
     override fun onClick(v: View?) {
         when(v?.id){
             R.id.btn_move_activity -> {
-                
+                val moveActivity = Intent(this, MoveActivity::class.java)
+                startActivity(moveActivity)
             }
         }
     }

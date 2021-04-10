@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">MyIntentApp</string>
     <string name="move_activity">MOVE ACTIVITY</string>
+    <string name="this_is_move_activity">This is Move Activity</string>
 </resources>
