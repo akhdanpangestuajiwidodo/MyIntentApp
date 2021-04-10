@@ -2,4 +2,6 @@
     <string name="app_name">MyIntentApp</string>
     <string name="move_activity">MOVE ACTIVITY</string>
     <string name="this_is_move_activity">This is Move Activity</string>
+    <string name="move_with_data">MOVE WITH DATA</string>
+    <string name="data_received">Data Received</string>
 </resources>
